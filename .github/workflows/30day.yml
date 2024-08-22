@@ -3,12 +3,14 @@ name: 30DAY
 on:
   schedule:
     - cron: "0 0 1 * *"
+  workflow_dispatch:
 
 env:
   account: "0"
   key: "1"
   mail: "1secmail"
   key_type: "--key"
+  
 jobs:
   GenerateKey:
     runs-on: ubuntu-latest
