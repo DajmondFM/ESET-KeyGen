@@ -1,6 +1,10 @@
 name: 30DAY
 
 on:
+  schedule:
+    - cron: "0 0 1 * *"
+    
+on:
   workflow_dispatch:
     inputs:
       account:
