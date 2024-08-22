@@ -7,8 +7,8 @@ on:
 
 env:
   account: "0"
-  key: "1"
-  mail: "1secmail"
+  key: "5"
+  mail: "developermail"
   key_type: "--key"
   
 jobs:
